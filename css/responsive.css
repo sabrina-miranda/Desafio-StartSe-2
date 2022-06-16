@@ -8,9 +8,11 @@
 
     .container-main h2{
         text-align: center;
+        font-size: 40px;
     }
     .container-main h3{
         text-align: center;
+        font-size: 18px;
 
     }
     .form1{
@@ -83,11 +85,10 @@
         margin-top: -50px;
     }
     .container-main h2{
-        font-size: px;
+        font-size: 38px;
     }
-
     .container-main h3{
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .form1 input{
