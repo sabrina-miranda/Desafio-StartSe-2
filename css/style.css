@@ -298,7 +298,7 @@ main .container-main img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .icon-home img{
     width: 50px;
@@ -313,7 +313,7 @@ main .container-main img{
 /* RODAPÉ */
 
 footer{
-    padding-top: 12px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 footer a{
