@@ -70,11 +70,18 @@
     .line{
         display: none;
     }
+
+    .icon-home{
+        margin-top: -20px;
+    }
 }
 
 
 
 @media (max-width: 630px) {
+    main .container-main div{
+        margin-top: -20px;
+    }
     .container-main h2{
         font-size: px;
     }
