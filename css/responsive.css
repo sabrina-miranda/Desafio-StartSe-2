@@ -1,0 +1,214 @@
+@media (max-width: 1000px){
+    main .container-main div{
+        margin: auto;
+    }
+    main .container-main img{
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    div h3 {
+        text-align: center;
+
+    }
+    .form1{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+    input {
+        margin:12px;
+    }
+    .container {
+        padding: 0px 20px;
+    }
+
+    .form-container {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .form-contents{
+        height: auto;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .form-contents h2{
+        text-align: center;
+        margin: 0px;
+        line-height: 35px;
+    }
+    
+    .form2 input{
+        margin-top: 0px;
+    }
+    .form2 [type="submit"]{
+        min-width: 500px;
+    }
+    
+    .contact{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .contact h3{
+        width: 88vw;
+        margin: 0px;
+    }
+    .img{
+        width: 88vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .line{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 630px) {
+    h3{
+        font-size: 18px;
+    }
+
+    .menu-button-container {
+        display: flex
+    }
+
+    .menu {
+        position: absolute;
+        margin-top: 30px;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        left: 100%;
+        transform: translateX(100vw);
+        transition: 0.5s ease transform;
+    }
+
+    .menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        color: white;
+        background-color: #2EC4B6;
+        border-radius: 5px;
+    }
+
+    .menu>li:not(:last-child) {
+        border-bottom: 1px solid white;
+    }
+
+    .menu li a {
+        flex: 1;
+        text-align: center;
+    }
+
+    main .container-menu img{
+        display: none;
+    }
+
+    label{
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 22px;
+        width: 30px;
+    }
+
+    label span{
+        position: absolute;
+        display: block;
+        height: 5px;
+        width: 100%;
+        background: white;
+        border-radius: 30px;
+        transition: 0.25s ease-in-out;
+    }
+
+    label span:nth-child(1){
+        top: 0;
+    }
+    label span:nth-child(2){
+        top: 8px;
+    }
+    label span:nth-child(3){
+        top: 16px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(1){
+        transform: rotate(-45deg);
+        top: 8px
+    }
+    #checkbox-menu:checked + label span:nth-child(2){
+        opacity: 0;
+    }
+    #checkbox-menu:checked + label span:nth-child(3){
+        transform: rotate(45deg);
+        top: 8px
+    }
+
+    nav.menu{
+        width: 100%;
+    }
+
+    #checkbox-menu:checked~nav .menu {
+        transform: translateX(-100vw);
+        transition: 0.5s ease transform;
+    }   
+
+    .form-contents h2{
+        font-size: 28px;
+    }
+    .form-contents p{
+        font-size: 14px;
+    }
+    
+    .form2 input{
+        max-width: 300px;
+    }
+    .form2 textarea{
+        max-width: 300px;
+    }
+    .form2 [type="submit"]{
+        min-width: 300px;
+    }
+    
+    .contact h3{
+        font-size: 18px;
+        width: 80vw;
+    }
+    .contact img{
+        width: 35px;
+    }
+    .img{
+        width: 80vw;
+    }
+
+    .icon-home img{
+        width: 40px;
+    }
+
+    footer a{
+        font-size: 10px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+
+    html, body{
+        overflow-x: hidden;
+    }
+}
