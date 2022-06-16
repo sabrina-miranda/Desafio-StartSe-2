@@ -6,10 +6,10 @@
         display: none;
     }
 
-    h2 {
+    .container-main h2{
         text-align: center;
     }
-    div h3 {
+    .container-main h3{
         text-align: center;
 
     }
@@ -20,17 +20,18 @@
         text-align: center;
         flex-direction: column;
     }
-    input {
+    .form1 input{
         margin:12px;
     }
-    .container {
+    .container{
         padding: 0px 20px;
     }
 
-    .form-container {
+    .form-container{
         display: block;
         height: auto;
         text-align: center;
+        border-radius: 0;
     }
     .form-contents{
         height: auto;
@@ -52,20 +53,18 @@
     }
     
     .contact{
-        padding-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width:auto;
+        padding-top: 10px;
         padding-bottom: 10px;
     }
-    .contact h3{
-        width: 88vw;
-        margin: 0px;
-    }
+    
     .img{
-        width: 88vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 20px;
-        padding-left: 20px;
+        padding: 0;
     }
 
     .line{
@@ -76,8 +75,16 @@
 
 
 @media (max-width: 630px) {
-    h3{
+    .container-main h2{
+        font-size: px;
+    }
+
+    .container-main h3{
         font-size: 18px;
+    }
+
+    .form1 input{
+        max-width: 300px;
     }
 
     .menu-button-container {
@@ -188,17 +195,15 @@
     
     .contact h3{
         font-size: 18px;
-        width: 80vw;
+        
     }
     .contact img{
         width: 35px;
     }
-    .img{
-        width: 80vw;
-    }
 
     .icon-home img{
         width: 40px;
+        
     }
 
     footer a{
