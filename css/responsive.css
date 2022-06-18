@@ -78,6 +78,10 @@
     }
 }
 
+    footer a{
+        display: none;
+    }
+}
 
 
 @media (max-width: 630px) {
@@ -217,9 +221,6 @@
         
     }
 
-    footer a{
-        font-size: 10px;
-    }
     footer p{
         font-size: 12px;
     }
