@@ -76,12 +76,12 @@ ul{
 }
 
 button {
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     margin: 20px 0 30px 0px;
     border-radius: 20px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #2EC4B6;
     border: 1px solid #2EC4B6;
     cursor: pointer; 
