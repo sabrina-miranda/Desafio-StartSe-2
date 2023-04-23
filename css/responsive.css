@@ -1,8 +1,8 @@
 @media (max-width: 1024px){
-    main .container-main div{
+    section .container-main div{
         margin: auto;
     }
-    main .container-main img{
+    section .container-main img{
         display: none;
     }
 
@@ -87,8 +87,8 @@
 
 
 @media (max-width: 790px) {
-    main .container-main div{
-        margin-top: -50px;
+    .newsletter {
+        padding-top: 30px;
     }
     .container-main h2{
         font-size: 38px;
@@ -139,7 +139,7 @@
         text-align: center;
     }
 
-    main .container-menu img{
+    section .container-menu img{
         display: none;
     }
 
@@ -215,9 +215,8 @@
         width: 35px;
     }
 
-    .icon-home img{
-        width: 40px;
-        
+    footer p .dev{
+        font-size: 12px;
     }
 
     footer p{

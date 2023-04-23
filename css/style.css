@@ -11,6 +11,7 @@ html, body{
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 } 
 
 a{
@@ -23,6 +24,8 @@ header{
     background-color: #2EC4B6;
     top: 0;
     width: 100%;
+    position: fixed;
+    z-index: 10;
 }
 
 header .container{
@@ -64,11 +67,15 @@ header .container img{
 
 /* MAIN */
 
-main .container-main{
+section .container-main{
     display: flex;
     align-items: center;
     max-width: 980px;
     margin: 100px auto 100px auto;
+}
+
+.newsletter {
+    padding-top: 80px;
 }
 
 h2{
@@ -111,8 +118,8 @@ h3{
     background-color: #4DCDC1;
 }
 
-main .container-main img{
-    padding-top: 10px;
+section .container-main img{
+    padding-top: 90px;
     padding-bottom: 30px;
     width: 450px;
 }
@@ -327,6 +334,16 @@ footer p{
     align-items: center;
     justify-content: center;
     display: flex;
+}
+footer p .dev{
+    display: block;
+    color: #2EC4B6;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer p .dev:hover{
+    color: #038f81;
 }
 footer span{
     color: #2EC4B6;;
