@@ -314,19 +314,7 @@ section .container-main img{
 
 footer{
     padding-top: 10px;
-    padding-bottom: 20px;
-}
-footer a{
-    color: black; 
-    font-size: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 8px;
-    cursor: pointer;
-}
-footer a:hover{
-    color: #2EC4B6; 
+    padding-bottom: 30px;
 }
 footer p{
     color: black; 
